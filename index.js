@@ -31,6 +31,7 @@ function findBy(array, findFn) {
   {
     if(findFn(array[i])) {
       valueFound = array[i]
+      break
     }
   }
 
